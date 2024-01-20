@@ -162,10 +162,10 @@ if 'DATABASE_URL' in os.environ:
 
 ADMINS = (('Keneth', 'palsbet1@gmail.com'),)
 
-CSRF_TRUSTED_ORIGINS = ['http://palsbet.com/', 'https://palsbet.com/', 'https://palsbet.herokuapp.com/', 'http://127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['http://palsbet.com/', 'https://palsbet.com/', 'https://palsbet.pythonanywhere.com/', 'http://127.0.0.1']
 
-#SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-#SECURE_SSL_REDIRECT = True
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SECURE_SSL_REDIRECT = True
 
 
 # adding config
