@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 's7eru^)1y(kwflnvhdhfp-iy@@!h7^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['palsbet.herokuapp.com','www.palsbet.com','127.0.0.1']
+ALLOWED_HOSTS = ['palsbet.pythonanywhere.com','www.palsbet.com','127.0.0.1']
 
 
 # Application definition
@@ -169,8 +169,8 @@ CSRF_TRUSTED_ORIGINS = ['http://palsbet.com/', 'https://palsbet.com/', 'https://
 
 
 # adding config
-cloudinary.config( 
-  cloud_name = "hguozxlfm", 
-  api_key = "734552964428113", 
-  api_secret = "ReghRp5q2WXYQ4nMvDTzpoIRl84" 
+cloudinary.config(
+  cloud_name = "hguozxlfm",
+  api_key = "734552964428113",
+  api_secret = "ReghRp5q2WXYQ4nMvDTzpoIRl84"
 )
