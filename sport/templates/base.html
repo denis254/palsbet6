@@ -13,7 +13,7 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-106571131-1');
-</script> 
+</script>
 
 
   {% if request.path == "/"%}
@@ -138,6 +138,8 @@ body {
 <body>
 
 {% include "navbar.html" %}
+
+<div id="oddspedia-widget-live-score-popular-false-sports-false-leagues-false"><script>window.oddspediaWidgetLiveScorePopularSportsLeagues = { api_token: "0ac2491835a98a8700cdfec431319dbe0f30fe70f620658d362517ee228f", type: "live-score", domain: "palsbet.pythonanywhere.com/", selector: "oddspedia-widget-live-score-popular-false-sports-false-leagues-false", width: "0", theme: "0", odds_type: "1", language: "en", primary_color: "#283E5B", accent_color: "#00B1FF", font: "Roboto", logos: "true", inplay_only: "false", extended_match_info: "true", live_stream: "true", limit: "15", popular: "false", sports: "", leagues: "", };</script><a href="https://oddspedia.com" target="_blank" >Powered by</a><script src="https://widgets.oddspedia.com/js/widget/init.js?widgetId=oddspediaWidgetLiveScorePopularSportsLeagues" async></script></div>
 
   {% block content %}
 
